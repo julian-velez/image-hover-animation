@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    clip-path: polygon(79% 14%, 77% 85%, 18% 68%, 9% 9%);
+    transform: rotate(8deg);
+
+}
+
+img:hover {
+    transform: rotate(456deg);
+}
